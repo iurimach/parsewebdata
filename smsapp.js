@@ -35,7 +35,7 @@ async function fetchData(url) {
         
       console.log("Result:", result);
       if(result.length>0){ // თუ მოძებნილი ინფორმცია 0 ზე მეტია მხოლოდ მაშინ გააგზავნე მეილი
-        SendMail();
+        // SendMail();  // გავუთიშე გაგზვნა ავტომტური
         }
     } catch (error) {
       console.error("Error:", error);
